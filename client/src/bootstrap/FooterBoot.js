@@ -4,9 +4,11 @@ import { Nav } from 'react-bootstrap'
 const FooterBoot = props => {
     return (
         <div className="footer-boot" bg="dark">
-            <h1>
-                Footer
-            </h1>
+            <footer class="fixed-bottom bg-dark">
+                <div class="container">
+                    <p class="text-center text-white">By Rafael Valverde</p>
+                </div>
+            </footer>
         </div>
     )
 }
