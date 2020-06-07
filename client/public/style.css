@@ -1,0 +1,27 @@
+.App{
+    display: grid;
+    grid-template-columns: 25% auto;
+    grid-template-areas: 
+        "header-boot header-boot"
+        "sidebar-boot content-boot"
+        "footer-boot footer-boot";
+}
+
+.header-boot{
+    grid-area: header-boot;
+}
+
+.sidebar-boot{
+    grid-area: sidebar-boot;
+}
+
+.content-boot{
+    text-align: left;
+    grid-area: content-boot;
+}
+
+.footer-boot{
+    position: fixed;
+    bottom: 0;
+    grid-area: footer-boot;
+}
